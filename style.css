@@ -1,0 +1,120 @@
+body {
+background-color: rgb(205,10,10);
+font-family: montserrat;
+text-align: center;
+color:gray;
+line-height: 30px;
+}
+p {
+  line-height: 10px;
+}
+
+h1 {
+color: red;
+font-size: 30px;
+font-family: arial;
+}
+
+h2 {
+color: black;
+font-size: 20px;
+font-family: arial;
+}
+
+h3 {
+color: black;
+font-size: 15px;
+font-family: arial;
+}
+
+h4 {
+color: black;
+font-size: 12px;
+font-family: arial;
+}
+
+h5 {
+color: black;
+font-size: 10px;
+font-family: arial;
+}
+
+a {
+color: green;
+text-decoration: false;
+}
+
+a:hover {
+
+color: purple;
+
+}
+
+.card {
+background-color: white;
+padding: 20px;
+width: 75%;
+margin: 0 auto;
+margin-bottom: 20px;
+border-radius: 4px;
+box-shadow: 1px 7px 0px rgba(0,0,0,0.1);
+border: 2px;
+}
+
+.img-circle{
+border-radius: 50%;
+}
+
+.img-profile{
+width: 150px;
+height: 150px;
+border: 3px solid rgb(204, 204, 204);
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.icon-big {
+
+ font-size: 50px;
+}
+
+.icon-big:hover {
+font-size: 75px;
+}
+
+.td-width {
+width: 600px;
+text-align: center;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-hover:hover {
+ background-color: red;
+  color: white;
+  font-weight: 550;
+  padding: 17px;
+  border-radius: 4px;
+  width = 75px;
+
+}
+#sidebar{
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+margin-left: 300px;
+ }
